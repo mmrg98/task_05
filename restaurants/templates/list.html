@@ -8,6 +8,7 @@
         {% for restaurant in restaurants %}
             <a href="{% url 'restaurant-detail' restaurant.id %}">
                 <ul>
+                  
                     <li> {{restaurant.name}}-{{restaurant.description}}</li>
                 </ul>
             </a>
